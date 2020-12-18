@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac17baf6-c9f6-4003-ac49-2dfc910deb72" name="Default Changelist" comment="1.定義模型">
-      <change beforePath="$PROJECT_DIR$/.idea/django_bookmanager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_bookmanager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ac17baf6-c9f6-4003-ac49-2dfc910deb72" name="Default Changelist" comment="2.模型遷移&#10;    2.1 生成遷移文件（只會創建一個 數據表和模型對應關係 &#10;     python manage.py makemigrations">
       <change beforePath="$PROJECT_DIR$/bookmanager/book/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanager/book/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanager/bookmanager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanager/bookmanager/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +38,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lpKEpjH9kqQYCNEoZ6M7TbW9GH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -143,6 +143,7 @@
       <updated>1608288484470</updated>
       <workItem from="1608308023877" duration="511000" />
       <workItem from="1608308692044" duration="1772000" />
+      <workItem from="1608310498952" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="創建工程 添加子應用 註冊子應用">
       <created>1608289879205</created>
@@ -158,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608309018145</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2.模型遷移&#10;    2.1 生成遷移文件（只會創建一個 數據表和模型對應關係 &#10;     python manage.py makemigrations">
+      <created>1608310663319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608310663319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,9 +185,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="創建工程 添加子應用 註冊子應用" />
     <MESSAGE value="1.定義模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.定義模型" />
+    <MESSAGE value="2.模型遷移&#10;    2.1 生成遷移文件（只會創建一個 數據表和模型對應關係 &#10;     python manage.py makemigrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.模型遷移&#10;    2.1 生成遷移文件（只會創建一個 數據表和模型對應關係 &#10;     python manage.py makemigrations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/django_bookmanager$models.coverage" NAME="models Coverage Results" MODIFIED="1608310470792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookmanager/book" />

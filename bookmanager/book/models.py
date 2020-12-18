@@ -7,6 +7,7 @@ from django.db import models
     2.1 生成遷移文件（只會創建一個 數據表和模型對應關係
      python manage.py makemigrations
     2.2在遷移（在數據庫生成表）
+    python manage.py migrate
   3.操作數據庫
 
  要知道
