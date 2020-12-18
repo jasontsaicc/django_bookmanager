@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 子應用
     'book',
-    'login.apps.LoginConfig'
-    'pay.apps.PayConfig'
+    'login',
+    'pay'
 ]
 
 MIDDLEWARE = [
