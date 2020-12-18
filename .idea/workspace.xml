@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac17baf6-c9f6-4003-ac49-2dfc910deb72" name="Default Changelist" comment="" />
+    <list default="true" id="ac17baf6-c9f6-4003-ac49-2dfc910deb72" name="Default Changelist" comment="創建工程 添加子應用 註冊子應用">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmanager/book/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanager/book/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,10 +46,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.admin">
+  <component name="RunManager" selected="Python.models">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="django_bookmanager" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,6 +63,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookmanager/123.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -79,7 +85,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookmanager/pay/admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="django_bookmanager" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookmanager/book" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookmanager/book/models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.models" />
         <item itemvalue="Python.admin" />
         <item itemvalue="Python.123" />
       </list>
@@ -103,8 +133,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608288484470</updated>
+      <workItem from="1608308023877" duration="511000" />
+      <workItem from="1608308692044" duration="322000" />
     </task>
+    <task id="LOCAL-00001" summary="創建工程 添加子應用 註冊子應用">
+      <created>1608289879205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608289879205</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -116,32 +159,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="340" y="187" key="FileChooserDialogImpl" timestamp="1608288609181">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state x="340" y="187" key="FileChooserDialogImpl/0.23.1440.806@0.23.1440.806" timestamp="1608288609181" />
-    <state width="1003" height="207" key="GridCell.Tab.0.bottom" timestamp="1608289257155">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state width="1003" height="207" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1608289257155" />
-    <state width="1003" height="207" key="GridCell.Tab.0.center" timestamp="1608289257154">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state width="1003" height="207" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1608289257154" />
-    <state width="1003" height="207" key="GridCell.Tab.0.left" timestamp="1608289257153">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state width="1003" height="207" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1608289257153" />
-    <state width="1003" height="207" key="GridCell.Tab.0.right" timestamp="1608289257154">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state width="1003" height="207" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1608289257154" />
-    <state x="61" y="65" key="SettingsEditor" timestamp="1608289145327">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state x="61" y="65" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1608289145327" />
-    <state x="61" y="65" key="SettingsEditor/0.23.1440.807@0.23.1440.807" timestamp="1608288524100" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="創建工程 添加子應用 註冊子應用" />
+    <option name="LAST_COMMIT_MESSAGE" value="創建工程 添加子應用 註冊子應用" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/django_bookmanager$models.coverage" NAME="models Coverage Results" MODIFIED="1608308252178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookmanager/book" />
   </component>
 </project>
