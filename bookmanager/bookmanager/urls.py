@@ -15,7 +15,24 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from django.conf.urls import url, include
+"""
+1.urlpatterns 是固定寫法 裡面的值是列表
+2.在瀏覽器的網址 會和urlpatterns 依照順序匹配
+    匹配成功 會導入相對應的模塊
+    不成功返回404
+3.urlpatterns 中的元素是url
+    第一個參數是正則
+    r = 轉譯
+    ^ = 嚴格的開始
+    $ = 嚴格的結束
+4.http://ip:port/path/?key=value
+    http://ip:port/ 和get/post不參與正則匹配
 
+"""
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    # 2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
+    url(r'^',include('book.urls')),
+    url(r'^pay/', include('pay.urls')),
 ]
